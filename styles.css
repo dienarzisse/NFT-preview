@@ -57,7 +57,9 @@ body{
     height: 263px;
     border-radius: 0.5rem;
     position: absolute;
-    transform: translateY(calc(-50% + 1.6rem));
+    top:0%;
+    transform: translateY(calc(50% - 3.625rem));
+    user-select: none;
 }
 
 .container .middle:hover{
