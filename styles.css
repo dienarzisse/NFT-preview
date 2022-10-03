@@ -55,7 +55,7 @@ body{
     background-color: rgba(0, 255, 247, 0.5);
     width: 263px;
     height: 263px;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     position: absolute;
     top:0%;
     transform: translateY(calc(50% - 3.625rem));
