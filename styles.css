@@ -35,7 +35,7 @@ body{
     align-items: justify;
     background-color: var(--very-dark-blue-card);
     padding: 1.5rem 1.125rem 1.5rem 1.125rem;
-    width: 330px;
+    width: 300px;
     border-radius: 0.75rem;
     margin: 3rem 2rem 3rem 2rem;
 }
@@ -53,14 +53,11 @@ body{
     transition: .5s ease;
     opacity: 0;
     background-color: rgba(0, 255, 247, 0.5);
-    width: 294px;
-    height:43%;
+    width: 263px;
+    height: 263px;
     border-radius: 0.5rem;
     position: absolute;
-    top: 0%;
-    left: 0%;
-    transform: translate(17%, 25%);
-    -ms-transform: translate(17%, 25%);
+    transform: translateY(calc(-50% + 1.6rem));
 }
 
 .container .middle:hover{
